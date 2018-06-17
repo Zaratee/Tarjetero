@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre:"
+        android:textAllCaps="true"/>
+    <TextView
+        android:id="@+id/txtV_Nomb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Carlos"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edad:"
+        android:textAllCaps="true"/>
+    <TextView
+        android:id="@+id/txtV_Edad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="19"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripcion: "
+        android:textAllCaps="true"/>
+    <TextView
+        android:id="@+id/txtV_Desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1233231kjkj"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="#000"/>
+
+    <ImageView
+        android:id="@+id/imgV_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
